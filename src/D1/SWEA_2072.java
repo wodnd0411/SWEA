@@ -1,4 +1,5 @@
 package D1;
+
 import java.io.FileInputStream;
 import java.util.Scanner;
 
@@ -7,7 +8,7 @@ public class SWEA_2072 {
 
 	public static void main(String[] args) throws Exception {
 		// input.txt파일로부터 입력을 받을 수 있다
-		System.setIn(new FileInputStream("input.txt 경로"));
+		System.setIn(new FileInputStream("SWEA_2072.txt 경로"));
 		
 		Scanner scanner = new Scanner(System.in);
 		
